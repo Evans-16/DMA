@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Media Africa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a9973282d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Digital Media Africa</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#team">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#clients">Portfolio</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+ <!-----------------------------------------------home------------------------------------------------------------------>
+    <section id="home">
+        <div class="home-container">
+            <h2 class="animated-text">
+                <span class="line">Hi welcome to Digital Media Africa team. We are an</span>
+                <span class="line">agency</span>
+            </h2>
+        </div>
+        <div class="home-content">
+            <img src="images/DMA.jpg" alt="Digital Media Africa Logo" class="animated-image">
+        </div>
+    </section>
+ <!------------------------------------------------team----------------------------------------------------------------->
+    <section id="team">
+        <h2>Meet the team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Justin Ongeri">
+                <p>Justin Ongeri</p>
+                <p>Director of Digital</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Job Ondicho">
+                <p>Job Ondicho</p>
+                <p>Operations</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Carol Wangui">
+                <p>Carol Wangui</p>
+                <p>Relationship Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Henry Getaro">
+                <p>Henry Getare</p>
+                <p>Community Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Johnson Kamau">
+                <p>Johnson Kamau</p>
+                <p>Media Buyer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Johnson Kamau">
+                <p>Johnson Kamau</p>
+                <p>Media Buyer</p>
+            </div>
+        </div>
+    </section>
+ <!--------------------------------------------services--------------------------------------------------------------------->
+    <section id="services">
+        <h2>What We Do?</h2>
+        <div class="service">
+            <img src="images/medbuy.png" alt="Media Buying">
+            <h3>Media Buying</h3>
+            <p>Media Planning</p>
+            <p>Optimization</p>
+        </div>
+        <div class="service">
+            <img src="images/SMM.jpg" alt="Digital Marketing">
+            <h3>Digital Marketing</h3>
+            <p>Social media marketing</p>
+            <p>Marketing Campaigns</p>
+        </div>
+        <div class="service">
+            <img src="images/web.jpg" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>Web Design</p>
+            <p>SEO</p>
+        </div>
+    </section>
+ <!--------------------------------------------clients--------------------------------------------------------------------->
+    <section id="clients">
+        <h2>Our Clients</h2>
+        <div class="carousel">
+            <div class="carousel-track">
+                <div class="client">
+                    <img src="images/coca.png" alt="Coca Cola">
+                </div>
+                <div class="client">
+                    <img src="images/Stanbic.jpg" alt="Stanbic">
+                </div>
+                <div class="client">
+                    <img src="images/CARduka.png" alt="Car Duka">
+                </div>
+                <div class="client">
+                    <img src="images/airtel.jpg" alt="Airtel">
+                </div>
+                <!-- Duplicated clients for continuous effect -->
+                <div class="client">
+                    <img src="images/coca.png" alt="Coca Cola">
+                </div>
+                <div class="client">
+                    <img src="images/Stanbic.jpg" alt="Stanbic">
+                </div>
+                <div class="client">
+                    <img src="images/CARduka.png" alt="Car Duka">
+                </div>
+                <div class="client">
+                    <img src="images/airtel.jpg" alt="Airtel">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!----------------------------------------contacts------------------------------------------------------------------------->
+    <section id="contact">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p><i class="fa fa-phone"></i>0713740145</p>
+            <p><i class="fa fa-envelope"></i>digitalmediaafrica@gmail.com</p>
+            <p><i class="fa fa-whatsapp"></i>0713740145</p>
+            <div class="contact-left-connect">
+                <p>Connect with us</p>
+            </div>
+            <div class="social-icons">
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <div class="form-container">
+                <form name="contact-form">
+                    <label for="">Fill out this form and we will reach out to you</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <input type="text" id="number" name="number" placeholder="Your number" required>
+                    <textarea id="message" name="message" rows="3" placeholder="Tell us about Your Project"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="msg"></div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------footer---------------------------------------------->
+    <footer>
+        <p>&copy; 2024 Digital Media Africa</p>
+    </footer>
+    <!--------------------------------------------clients-carousel---------------------------------------------------->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const track = document.querySelector('.carousel-track');
+            const clients = Array.from(track.children);
+            const clientWidth = clients[0].getBoundingClientRect().width;
+    
+            let currentSlide = 0;
+    
+            const moveToNextClient = () => {
+                if (currentSlide >= clients.length / 2) {
+                    currentSlide = 0;
+                    track.style.transition = 'none';
+                    track.style.transform = 'translateX(0)';
+                } else {
+                    track.style.transition = 'transform 0.5s linear';
+                    currentSlide++;
+                    track.style.transform = 'translateX(' + (-clientWidth * currentSlide) + 'px)';
+                }
+            };
+    
+            setInterval(moveToNextClient, 2000); // Change slide every 2 seconds
+        });
+    </script>
+    <!-----------------------------------home-text animation--------------------------------------------->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const lineElements = document.querySelectorAll('.line');
+    const image = document.querySelector('.animated-image');
+    
+    let index = 0;
+
+    const runAnimations = () => {
+        image.style.animation = 'none';
+        image.offsetHeight;
+        image.style.animation = 'fadeInUp 2s ease-out forwards';
+        image.style.animationDelay = '0s'; // Image appears immediately
+
+        lineElements.forEach((line, i) => {
+            line.style.animation = 'none';
+            line.offsetHeight;
+            line.style.animation = `rollOut 2s ease-out forwards`;
+            line.style.animationDelay = `${(i + 2) * 0.5}s`; // Delay each line after the image
+        });
+        
+        index = (index + 1) % lineElements.length;
+    };
+    
+    // Run animations immediately on page load
+    runAnimations();
+
+    // Set interval to run animations
+    setInterval(runAnimations, 10000);
+});
+    </script>
+     <!-------------------------------smooth scrolling------------------------------------------------------->
+     <script> 
+         document.addEventListener("DOMContentLoaded", function() {
+             const links = document.querySelectorAll('nav a[href^="#"]');
+    
+             for (const link of links) {
+                 link.addEventListener("click", function(event) {
+                 event.preventDefault();
+                 const targetId = this.getAttribute("href").substring(1);
+                 const targetElement = document.getElementById(targetId);
+    
+                window.scrollTo({
+                    top: targetElement.offsetTop - document.querySelector('.header').offsetHeight,
+                    behavior: "smooth"
+                });
+            });
+        }
+    });
+    </script>
+    <!-------------------------------form submission------------------------------------------------------->
+    <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwkG2mtvIST_qMIP0QHr2glwMt6NlvcOEsVenjwep6uJ9cZ-4BbHyZwdYR7KgOhTUUn4Q/exec'
+            const form = document.forms['contact-form']
+            const msg = document.getElementById("msg")
+            const button = form.querySelector('button')
+
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            msg.innerHTML = "Sending message..."
+            msg.classList.remove("success", "error")
+            msg.classList.add("sending")
+            msg.style.display = "block"
+            button.style.display = "none"
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    msg.classList.remove("sending")
+                    msg.classList.add("success")
+                    form.reset()
+                    setTimeout(function () {
+                        location.reload()
+                    }, 5000)
+                })
+                .catch(error => {
+                    msg.innerHTML = "Error sending message"
+                    msg.classList.remove("sending")
+                    msg.classList.add("error")
+                    button.style.display = "block"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                })
+        })
+    </script>
+</body>
+</html>
